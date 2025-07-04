@@ -1,0 +1,32 @@
+name: get_calley_app
+description: A Flutter app for Get Calley
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core Packages
+  http: ^1.1.0          # For API calls
+  provider: ^6.1.1      # State management
+  flutter_svg: ^2.0.7   # SVG assets
+  youtube_player_flutter: ^8.1.2
+#  flutter_icons: ^1.2.0
+
+  # Form Validation (Updated version)
+  form_field_validator: ^1.1.0  # Alternative to form_validator
+  intl_phone_field: ^3.1.0      # Phone input
+
+  # UI/UX
+  fluttertoast: ^8.2.2          # Notifications
+  loading_animation_widget: ^1.2.0 # Loaders
+  form_validator: 2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
